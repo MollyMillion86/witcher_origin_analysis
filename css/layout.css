@@ -1,0 +1,129 @@
+
+body {
+	background-color: black;
+	color: white;
+}
+
+.container {
+	position: relative;
+	z-index: 10;
+}
+
+.img-fluid {
+	position: absolute;
+	z-index: 0;
+}
+
+.display-1 {
+	font-size: 9rem;
+	margin-top: 2rem;
+}
+
+.display-4 {
+	margin-bottom: 2rem;
+}
+
+#red {
+	color: #b30000;
+}
+
+.card {
+	background-color: black;
+	border-color: grey;
+}
+
+.card-title {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* PAGINA RICERCA */
+
+#clear {
+	width: 135px;
+	height: 25px;
+}
+
+#form-ricerca {
+	width: 960px;
+}
+
+.main-result {
+	border-radius: 3px;
+}
+
+#results-container {
+	background-color: #323232;
+}
+
+#results-container, #right-column-container {
+	width: 500px;
+}
+
+.bg-light-dark  {
+	background-color: #4c4c4c;
+}
+
+#left-column-container {
+	width: 250px;
+	margin: 10px 0 0 5px;
+}
+
+.img-container {
+	max-width: 200px;
+	max-height: 250px;
+}
+
+.img-height {
+	
+	max-width: 128px;
+	max-height: 192px;
+}
+
+.img-height > img {
+	width: 100%;
+	height: auto;
+}
+
+.main-result {
+	background-color: #666666;
+	margin: 0 16px 20px 16px;
+}
+
+.info {
+	font-size: 13px;
+	margin-bottom: 0;
+}
+
+.metatag {
+	color: #5cb85c;
+}
+
+.metatag:hover {
+	color: #8ccd8c;
+}
+
+/* PAGINA WITCHER */
+
+
+#column {
+	height: 1200px;
+}
+
+#menu-witcher {
+	border-bottom-color: red !important;
+}
+
+#home-title {
+	margin: 0 0 6rem 0;
+}
+
+/* img principale MEDAGLIONE */
+#main > img {
+	height: 500px;
+}
+
+#footer h3 {
+	margin-bottom: 1rem;
+}
+
