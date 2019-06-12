@@ -110,8 +110,24 @@ body {
 	height: 1200px;
 }
 
-#menu-witcher {
-	border-bottom-color: red !important;
+#menu-witcher > li {
+	border-bottom: 1px solid red !important;
+}
+
+
+#menu-witcher > li:hover, #menu-witcher a:hover {
+	color: white;
+	border-bottom-color: white !important;
+}
+
+
+/* WORKS????? */
+#menu-witcher > li.selected {
+	border-bottom: none;
+}
+
+#menu-witcher a {
+	color: #e5e5e5;
 }
 
 #home-title {
