@@ -107,6 +107,7 @@ body {
 
 
 #column {
+	width: 726px;
 	height: 1200px;
 }
 
@@ -137,10 +138,10 @@ body {
 }
 
 
-/* WORKS????? */
+/* WORKS?????
 #menu-witcher > li.selected {
 	border-bottom: none;
-}
+} */
 
 #menu-witcher a {
 	color: #e5e5e5;
