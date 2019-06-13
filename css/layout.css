@@ -110,6 +110,22 @@ body {
 	height: 1200px;
 }
 
+.no-visible {
+	visibility: hidden;
+}
+
+.hidden {
+	display: none;
+}
+
+
+/* MENU */
+
+
+#menu-container {
+	height: 41px;
+}
+
 #menu-witcher > li {
 	border-bottom: 1px solid red !important;
 }
@@ -130,9 +146,24 @@ body {
 	color: #e5e5e5;
 }
 
-#home-title {
-	margin: 0 0 6rem 0;
+
+
+/* TITOLO */
+
+
+#title-container {
+	height: 262px;
+	padding: 0 0 6.5rem 0 !important;
 }
+
+#home-title {
+	margin: 0 !important;
+	
+}
+
+
+
+
 
 /* img principale MEDAGLIONE */
 #main > img {
