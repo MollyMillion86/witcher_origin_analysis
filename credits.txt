@@ -1,3 +1,4 @@
 FONTS
-- https://www.fontsmarket.com/font-download/mason-regular
-- http://www.itis.com/~wonko/kiwi/wonkofonts.html
+- https://www.fontsmarket.com/font-download/mason-regular							OK
+- http://www.itis.com/~wonko/kiwi/wonkofonts.html									OK
+- Natanael Gama, http://www.ndiscovered.com/
