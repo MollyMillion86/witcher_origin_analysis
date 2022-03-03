@@ -4,13 +4,18 @@
     <meta charset="utf-8">
     <title>The Witcher - Studio della genesi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 	<link rel="stylesheet" href="css/layout.css">
 	<!-- <link rel="stylesheet" href="css/layout-login.css"> -->
     <!-- jQuery versione non compressa (non slim) per AJAX -->
     <script src="js/jquery.js"></script>	
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!-- <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.2/umd/popper.min.js" integrity="sha512-aDciVjp+txtxTJWsp8aRwttA0vR2sJMk/73ZT7ExuEHv7I5E6iyyobpFOlEFkq59mWW8ToYGuVZFnwhwIUisKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 	<script src="js/witcher.js"></script>
 
@@ -18,31 +23,90 @@
 </head>
 <body>
 
-	<div class="container">
+	<div class="container-fluid">
+	
+		<div class="d-flex flex-column justify-content-center align-items-around">
+		
+			
+			<ul class="nav justify-content-center mb-5" id="menu-list">
+				<li class="nav-item">
+					<a class="nav-link" href="witcher.html" id="home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#mappa" id="mappa">Mappa</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#creature" id="creature">Creature</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#storia" id="storia">Storia</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#luoghi" id="luoghi">Luoghi</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="chi-sono.html" id="chisono">Chi sono</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="crediti.html" id="crediti">Crediti</a>
+				</li>
+			</ul>
+			
+			
+			
+			
+			<div class="d-flex flex-row justify-content-center" id="main-container">
+				<img class="img-fluid " id="medallion-img" src="img/witcher-medallion-white.png" alt="The Witcher">
+			</div>
+			
+			
+			
+			
+			
+			<div id="title-container" class="d-flex flex-column justify-content-center text-center">
+				<h1 class="display-1 morpheus-font " id="home-title">The Witcher</h1>
+			</div>
+			
+			
+			
+			<footer class="mt-auto mason-font">
+				<div class="d-flex flex-row mt-auto justify-content-center" id="footer">
+				
+					<div class="d-flex flex-column m-5">
+						<h3 class="lead text-center">Scegli un argomento <b>in alto</b> per iniziare a conoscere</h3>
+						<h3 class="lead text-center">la genesi della più famosa saga fantasy polacca</h3>
+							<div class="d-flex flex-row justify-content-center">
+								<h3 class="lead text-center mr-2">creata dalla software house</h3>
+								<h3 class="lead text-center text-danger">CD Projekt RED</h3>
+							</div>
+						<h3 class="lead text-center">e ispirata al lavoro letterario di Andrzej Sapkowski</h3>
+					</div>
+					
+				</div>
+			</footer>
+			
+		
+		</div>
+	
+	
+	
+	</div>
+
+
+
+
+
+	<!-- <div class="container">
 		<div class="d-flex flex-row justify-content-center">
 
 
 			<div class="d-flex flex-column" id="column">
-				<!-- INUTILE -->
-				<div class="d-flex flex-row justify-content-between">
-					
-					<div class="d-flex">
-						<a href="index.php" target="_self">Indietro</a>
-					</div>
-					<div class="d-flex">
-						<a href="logout.php" target="_self">Logout</a>
-					</div>
-				
-				</div>
-				<!-- INUTILE -->
-				
-				<!-- <a id="prova" href="#">prova</a> -->
 				
 				<div class="d-flex flex-column justify-content-center mt-4 mb-5">
 				
 					<div class="d-flex flex-row justify-content-center" id="menu-container">
 						
-						<!-- MENU -->
+						
 						<div id="main-menu" class="hidden">
 							<ul class="nav" id="menu-list">
 								<li class="nav-item">
@@ -71,7 +135,7 @@
 						</div>
 						
 					</div>
-					<!-- BORDO ROSSO -->
+					
 					<div class="d-flex flex-row justify-content-center">
 						<div id="border-bottom"></div>
 					</div>
@@ -80,22 +144,20 @@
 				</div>
 				
 				
+				<div class="d-flex flex-row justify-content-center" id="main-container">
+					<img class="img-fluid hidden" id="medallion-img" src="img/witcher-medallion-white.png" alt="The Witcher">
+				</div>
 				
 				
 				
-				<!-- TITOLO -->
-				<div id="title-container" class="text-center pt-3">
+				
+				
+				<div id="title-container" class="d-flex flex-column justify-content-center text-center pt-3">
 					<h1 class="display-1 morpheus-font hidden" id="home-title">The Witcher</h1>
 				</div>
 				
-				<!-- MAIN -->				
-				<div class="d-flex flex-row justify-content-center" id="main-container">
 				
-					<img class="img-fluid hidden" id="medallion-img" src="img/witcher-medallion-white.png" alt="The Witcher">
-					
-				</div>
 				
-				<!-- FOOTER -->	
 				<div class="mt-auto mason-font">
 					<div class="d-flex flex-row mt-auto justify-content-center" id="footer">
 					
@@ -111,7 +173,7 @@
 
 		</div>
 	
-	</div>
+	</div> -->
 
 </body>
 </html>
