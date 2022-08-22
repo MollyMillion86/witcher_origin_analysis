@@ -1,0 +1,9 @@
+/* Idee per MEDAGLIONE sulla HOME */
+
+/* inverti colore immagine: https://www.w3schools.com/css/css3_images.asp */
+img {
+  filter: invert(100%);
+}
+
+/* CSS masking es. medaglione e una scena di The Witcher (possiamo usare uno screenshot?): https://www.w3schools.com/css/css3_masking.asp */
+
