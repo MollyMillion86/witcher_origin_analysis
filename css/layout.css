@@ -290,8 +290,8 @@ body {
 	visibility: hidden;
 }
 
-.hidden {
-	display: none;
+.hidden, .hidden * {
+	display: none !important;
 }
 
 
@@ -315,13 +315,13 @@ body {
 
 #border-bottom {
 	position: absolute;
-	top: 88px;
+	top: 40px;
 	width: 0;
 	height: 1px;
 	background-color: red;
 	animation-name: menu-line;
 	animation-duration: 1.1s;
-	animation-delay: 5s;
+	animation-delay: 3s;
 	animation-timing-function: ease-out;
 }
 
